@@ -13,6 +13,8 @@
 		0E2DB17D256FED9100FC934C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2DB17B256FED9100FC934C /* Main.storyboard */; };
 		0E2DB17F256FED9E00FC934C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E2DB17E256FED9E00FC934C /* Assets.xcassets */; };
 		0E2DB182256FED9E00FC934C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2DB180256FED9E00FC934C /* LaunchScreen.storyboard */; };
+		0E2DB18B256FEF0500FC934C /* FacilitiesSectionHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2DB18A256FEF0500FC934C /* FacilitiesSectionHeaderCollectionReusableView.swift */; };
+		0E2DB18E256FEFAF00FC934C /* FscilitiesSectionHeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2DB18D256FEFAF00FC934C /* FscilitiesSectionHeaderCollectionReusableView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0E2DB17E256FED9E00FC934C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E2DB181256FED9E00FC934C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E2DB183256FED9E00FC934C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E2DB18A256FEF0500FC934C /* FacilitiesSectionHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitiesSectionHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		0E2DB18D256FEFAF00FC934C /* FscilitiesSectionHeaderCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FscilitiesSectionHeaderCollectionReusableView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				0E2DB17E256FED9E00FC934C /* Assets.xcassets */,
 				0E2DB180256FED9E00FC934C /* LaunchScreen.storyboard */,
 				0E2DB183256FED9E00FC934C /* Info.plist */,
+				0E2DB18A256FEF0500FC934C /* FacilitiesSectionHeaderCollectionReusableView.swift */,
+				0E2DB18D256FEFAF00FC934C /* FscilitiesSectionHeaderCollectionReusableView.xib */,
 			);
 			path = ExpandableCollectionView;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E2DB182256FED9E00FC934C /* LaunchScreen.storyboard in Resources */,
+				0E2DB18E256FEFAF00FC934C /* FscilitiesSectionHeaderCollectionReusableView.xib in Resources */,
 				0E2DB17F256FED9E00FC934C /* Assets.xcassets in Resources */,
 				0E2DB17D256FED9100FC934C /* Main.storyboard in Resources */,
 			);
@@ -140,6 +147,7 @@
 				0E2DB17A256FED9100FC934C /* ViewController.swift in Sources */,
 				0E2DB176256FED9100FC934C /* AppDelegate.swift in Sources */,
 				0E2DB178256FED9100FC934C /* SceneDelegate.swift in Sources */,
+				0E2DB18B256FEF0500FC934C /* FacilitiesSectionHeaderCollectionReusableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
